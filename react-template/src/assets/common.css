@@ -1,0 +1,63 @@
+@import '~reset-css/reset.css';
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  height: 100%;
+  font-family: dinpro, sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+  margin-left: 0;
+}
+
+button {
+  padding: 0;
+  border: none;
+  font: inherit;
+  color: inherit;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+button:focus {
+  outline: none;
+}
+
+d {
+  border-bottom: dashed 1px #072833;
+}
+
+::-webkit-scrollbar {
+  width: 20px;
+  height: 18px;
+  background-color: #F8F8F8;
+}
+
+::-webkit-scrollbar-thumb {
+  height: 4px;
+  border: 8px solid #F8F8F8;
+  border-left-color: transparent;
+  background-clip: padding-box;
+  border-radius: 10px;
+  background-color: #e4e7e8;
+  box-shadow: inset -1px -1px 0 #e4e7e8, inset 1px 1px 0 #e4e7e8;
+}
+::-webkit-scrollbar-button {
+  width: 0;
+  height: 0;
+  display: none;
+}
+::-webkit-scrollbar-corner {
+  background-color: transparent;
+}
