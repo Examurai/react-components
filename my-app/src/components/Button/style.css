@@ -1,0 +1,14 @@
+.ButtonContainer {
+    padding: 10px;
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #ddd;
+    cursor: pointer;
+}
+
+.ChartContainer.ButtonContainer:first-child {
+    margin-left: 0;
+}
